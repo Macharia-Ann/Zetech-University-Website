@@ -1,0 +1,508 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.header{
+  display: flex;
+  background-color: #1C1D3C;
+  justify-content: space-between;
+  padding-right: 70px;
+}
+.logo{
+  width: 150px;
+  margin-left: 70px;
+
+}
+.social-icons{
+  margin-right: 50x;
+
+}
+
+.twitterimg{
+  width: 20px;
+  padding-top: 10px;
+  margin-left: 5px;
+
+}
+.heading1{
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.header2{
+  display: flex;
+padding:8px 20px ;
+background-color: #cb6015;
+justify-content: space-between;
+}
+
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+  padding-right: 50px;
+  padding-left: 60px;
+  margin-top: 10px;
+
+
+}
+nav ul li a{
+text-decoration: none;
+color: white;
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
+}
+nav ul li a:active{
+  border: 1px dotted white;
+  padding: 15px 15px;
+
+}
+.searchbt{
+  padding: 10px 10px;
+  border-radius: 15px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+
+.backgroundimg{
+  width: 100%;
+  background-size: cover;
+ 
+}
+.courses{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.courses a{
+  text-decoration: none;
+  color: black;
+}
+.ictimg{
+  width: 200px;
+}
+.ictheader{
+  margin-left: 50px;
+  color: #cb6015;
+}
+.courses1{
+  margin-left: 100px;
+  margin-bottom: 15px;
+  padding: 30px 30px 40px 70px;
+
+}
+.courses1:hover{
+  background-color: #f1f1f1;
+}
+.courses2{
+  margin-bottom: 15px;
+  padding: 30px 30px 40px 70px;
+
+}
+.courses2:hover{
+  background-color: #f1f1f1;
+}
+.courses3{
+  margin-bottom: 15px;
+   padding: 30px 30px 40px 70px;
+
+}
+.courses3:hover{
+  background-color: #f1f1f1;
+}
+.ictpar{
+  width: 290px;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.learnmore{
+  width: 130px;
+  height: 36px;
+  background-color: #cb6015;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  border: none;
+  margin-left: 40px;
+  
+}
+.dean{
+  display: flex;
+ margin-bottom: 70px;
+  margin-top: 70px;
+}
+.deanimg{
+  width: 360px;
+  margin-left: 100px;
+  margin-right: 20px;
+  border-radius: 15px;
+}
+.deanheader{
+  color: #cb6015;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+}
+.deanpar{
+  font-size: 17px;
+  line-height: 29px;
+  width: 800px;
+  margin-bottom: 20px;
+  
+}
+.readmore{
+  width: 130px;
+  height: 36px;
+  border: none;
+  background-color: #cb6015;
+  color: white;
+  font-size: 17px;
+  border-radius: 12px;
+  font-weight: bold;
+}
+.students{
+  display: flex;
+text-align: center;
+margin-bottom: 30px;
+
+}
+.studentsimg{
+  width: 350px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+.studentsheader{
+text-align: center;
+color: #cb6015;
+margin-bottom: 20px;
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase;
+}
+.studentsheader1{
+  color: #cb6015;
+  margin-bottom: 20px;
+}
+.studentspar{
+  color: black;
+  width: 350px;
+  font-weight: normal;
+  font-size: 17px;
+}
+.students1{
+margin-left: 20px;
+}
+.students11{
+  margin-left: 100px;
+}
+.footer{
+  background-color: #080b64;;
+  display: flex;
+padding-top: 50px;
+padding-bottom: 50px;
+  
+}
+.footerheader{
+  color: #cb6015;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.footerpar{
+  color: white;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.quickpar{
+  color: white;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.contactpar{
+  color: white;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.quickheader{
+  color: #cb6015;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  
+}
+.footer2 a{
+  text-decoration: none;
+  list-style: none;
+ 
+}
+.contactheader{
+  color: #cb6015;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.footer1{
+margin-left: 40px;
+}
+.footer2{
+  margin-left: 150px;
+  }
+  .footer3{
+    margin-left: 150px;
+    }
+    .footerbottom{
+      text-align: center;
+      background-color: #1C1D3C;
+      color: white;
+      font-size: 17px;
+      font-weight: bold;
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .aboutbackground{
+      background-image: url('./images/course2.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+    margin-bottom: 70px;
+      width: 100%;
+      height: 400px;
+    }
+    .backgroundheader{
+      color: white;
+      font-size: 24px;
+      font-weight: bold;
+      text-align: center;
+      padding-top: 150px;
+    }
+    .aboutus{
+      margin-left: 170px;
+      margin-bottom: 70px;
+    }
+    .aboutheader{
+color: #cb6015;
+font-size: 20px;
+font-weight: bold;
+margin-bottom: 40px;
+      
+    }
+    .abtusheader{
+      color: #cb6015f5;
+      font-size: 24px;
+      font-weight: normal;
+      margin-bottom: 30px;
+    }
+    .missionimg{
+      width: 400px;
+      border-radius: 15px;
+      margin-right: 20px;
+    }
+    
+    .aboutdivs{
+      display: flex;
+      margin-bottom: 40px;
+    }
+    .aboutuspar{
+margin-top: 70px;
+width: 600px;
+font-size: 17px;
+line-height: 26px;
+    }
+    .dropdown{
+      position: relative;
+      display: inline-block;
+    }
+    .dropdown-content{
+      display: none;
+    position: absolute;
+    background-color: #f1f1f134;
+    min-width: 150px;
+
+    }
+    .dropdown-content a{
+      color: black;
+      display: block;
+      font-size: 17px;
+      margin-top: 12px;
+      padding-left: 10px;
+      margin-bottom: 12px;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+.undergraduate{
+  margin-top: 70px;
+  margin-left: 100px;
+}
+.underheading{
+font-size: 21px;
+color: #cb6015;
+margin-bottom: 20px;
+font-weight: normal;
+text-transform: uppercase;
+}
+.underpar{
+  font-size: 17px;
+  line-height: 24px;
+  width: 1200px;
+}
+.underpar1{
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.underbutton{
+  width: 150px;
+  height: 36px;
+  color: white;
+  background-color: #cb6015;
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 30px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 70px;
+}
+.underbutton a{
+  color: white;
+
+text-decoration: none;
+}
+.diva{
+  background-color: #fff;
+  padding-top: 15px;
+    padding-bottom: 15px;
+}
+.ictengineering
+{
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
+.ictheader2{
+  font-size: 18px;
+  color: #cb6015;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+}
+.ictpar1{
+  width: 1000px;
+  line-height: 29px;
+  margin-left: 70px;
+  font-size: 17px;
+}
+.ictheader1{
+  color: black;
+  font-size: 21px;
+  margin-left: 70px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.media{
+  margin-left: 70px;
+  margin-bottom: 70px;
+  
+}
+.mediaheader{
+  color: black;
+  margin-top: 40px;
+  margin-bottom: 30px;
+
+}
+
+
+.mediapar{
+  font-size: 17px;
+line-height: 27px;
+width: 1000px;
+}
+.media ul li{
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: normal;
+  margin-left: 15px;
+}
+.contact{
+  display: flex;
+  margin-left: 70px;
+  margin-bottom: 70px;
+}
+.contactusheader{
+  color: #cb6015;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.contactusheader1{
+  color: #cb6015;
+  margin-bottom: 20px;
+  width: 300px;
+}
+.contactpar2{
+color: black;
+margin-bottom: 30px;
+font-size: 17px;
+
+}
+.contactpar1{
+  color: #cb6015;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+.getintouch{
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.getheader{
+  color: #cb6015;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 21px;
+
+
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  margin-top: 30px;
+  font-size: 17px;
+  
+}
+input{
+  height: 36px;
+  border-radius: 5px;
+padding-top: 25px;
+padding-bottom: 25px;
+}
+.getintouch input{
+  width: 600px;
+}
+textarea{
+  width: 600px;
+  border-radius: 5px;
+  height: 40px;
+  color: black;
+  
+
+}
+.submit{
+  margin-top: 30px;
+  color: white;
+  background-color: #cb6015;
+  font-size: 17px;
+  font-weight: bold;
+  width: 600px;
+height: 40px;
+border: none;
+border-radius: 15px;
+margin-bottom: 40px;
+}
+
