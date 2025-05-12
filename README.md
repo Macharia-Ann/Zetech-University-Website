@@ -14,9 +14,6 @@ This website serves as a digital front for Zetech University. It provides detail
 ## 🛠 Built With
 - **HTML5** – Structure
 - **CSS3** – Styling and layout
-- **JavaScript** – Interactivity
-- **PHP & MySQL** – (Optional) Backend form handling or contact feature
-- **Swiper.js** – For responsive sliders (testimonials, events, etc.)
 
 ##  Features
 - Responsive design for all screen sizes (mobile, tablet, desktop)
